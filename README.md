@@ -44,14 +44,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
+1. Selecciona el pipeline que deseas monitorear.
 2. Sube un archivo CSV con los datos de uso de instancias actualizados (`InstancesUseUSD.csv`).
-3. Selecciona el pipeline que deseas monitorear.
-4. Visualiza los detalles del pipeline y los jobs asociados.
-5. Revisa los logs y las métricas para cada job.
+3. Visualiza los detalles del pipeline y los jobs asociados.
+4. Revisa los logs y las métricas para cada job.
 
 ## Estructura de Archivos
 
-```
+``` python
 ├── app.py
 ├── modules
 │   ├── confs.py
@@ -66,4 +66,4 @@ streamlit run app.py
 
 ## Licencia
 
-Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo `LICENSE`.
+Este proyecto está licenciado bajo la Licencia MIT. Para más información, consulta el archivo `LICENSE`
